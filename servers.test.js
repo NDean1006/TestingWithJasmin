@@ -28,7 +28,6 @@ describe("Servers test (with setup and tear-down)", function() {
     expect(curTdList.length).toEqual(2);
     expect(curTdList[0].innerText).toEqual('Alice');
     expect(curTdList[1].innerText).toEqual('$0.00');
-    
 
   });
 
